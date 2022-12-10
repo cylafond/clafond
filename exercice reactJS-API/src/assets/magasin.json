@@ -1,0 +1,104 @@
+{
+  "magasins": [
+    {
+      "id": 1,
+      "nom": "Québec",
+      "nbEmployes": 20
+    },
+    {
+      "id": 2,
+      "nom": "Lévis",
+      "nbEmployes": 15
+    },
+    {
+      "id": 3,
+      "nom": "Montréal",
+      "nbEmployes": 35
+    },
+    {
+      "id": 4,
+      "nom": "Sherbrooke",
+      "nbEmployes": 18
+    },
+    {
+      "name": "Québec",
+      "nbEmployes": "42",
+      "id": 5
+    },
+    {
+      "name": "Sherbrooke",
+      "nbEmployes": "50",
+      "id": 6
+    },
+    {
+      "name": "Québec",
+      "nbEmployes": "45",
+      "id": 7
+    }
+  ],
+  "produits": [
+    {
+      "id": 1,
+      "nom": "VivoBook 15 X515 de 15,6 po d'ASUS",
+      "prix": 400,
+      "disponibilite": "En stock",
+      "expedition": "Disponible",
+      "categorie": "Ordinateurs",
+      "magasinsId": 2
+    },
+    {
+      "id": 2,
+      "nom": "ProBook 455 G7 de HP, 15,6 po HD",
+      "prix": 650,
+      "disponibilite": "En stock",
+      "expedition": "Non disponible",
+      "categorie": "Ordinateurs",
+      "magasinsId": 3
+    },
+    {
+      "id": 3,
+      "nom": "Galaxy S20 FE 5G 128 Go de Samsung",
+      "prix": 1200,
+      "disponibilite": "En rupture de stock",
+      "expedition": "Non disponible",
+      "categorie": "Cellulaires",
+      "magasinsId": 4
+    },
+    {
+      "id": 4,
+      "nom": "Pixel 7 Pro de 128 Go de Google",
+      "prix": 800,
+      "disponibilite": "En stock",
+      "expedition": "Disponible",
+      "categorie": "Cellulaires",
+      "magasinsId": 1
+    },
+    {
+      "id": 5,
+      "nom": "Galaxy S22 Ultra 5G de 256 Go de Samsung",
+      "prix": 1300,
+      "disponibilite": "En stock",
+      "expedition": "Disponible",
+      "categorie": "Cellulaires",
+      "magasinsId": 1
+    },
+    {
+      "id": 6,
+      "nom": "Téléviseur intelligent Google HDR DEL UHD 4K de 85 po BRAVIA de Sony",
+      "prix": 3200,
+      "disponibilite": "En stock",
+      "expedition": "Non disponible",
+      "categorie": "Téléviseurs",
+      "magasinsId": 2
+    },
+    {
+      "id": 7,
+      "nom": "Téléviseur intelligent webOS HDR DEL UHD 4K de 86 po NanoCell de LG",
+      "prix": 2100,
+      "disponibilite": "En rupture de stock",
+      "expedition": "Non disponible",
+      "categorie": "Téléviseurs",
+      "magasinsId": 2
+    }
+  ]
+}

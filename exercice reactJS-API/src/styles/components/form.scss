@@ -1,0 +1,36 @@
+.form {
+    margin: 20px 70px;
+    h2 {
+        text-align: center;
+    }
+    
+    form {
+        display: grid;
+        min-width: 400px;
+        text-align: center;
+        width: 50%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+        input {
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid $color-1;
+            resize: none;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        input[type="submit"] {
+            width: 200px;
+            margin: auto;
+            cursor: pointer;
+            transition: 0.4s;
+            background: $color-1;
+            &:hover {
+            background: $color-3;
+            color: white;
+            }
+            }
+    }
